@@ -4,7 +4,7 @@
     window.fetch.call = function() {
         if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
     }
-    if (console.log("%c Blooket Cheats Plus %c\n	By playstation451", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/play451/bl-h", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    if (console.log("%c Blooket Cheats Plus %c\n	By playstation451", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/play452/bl-h", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;) e.contentWindow.clearInterval.call(window, t);
         e.remove()
     }
@@ -136,7 +136,7 @@
         }, c.data.close || {
             ctrl: !0,
             key: "x"
-        }],
+        }], `${[e&&"Ctrl",t&&"Shift",a&&"Alt",o&&o.toUpperCase()].filter(Boolean).join(" + ")} to hide | ${[r&&"Ctrl",i&&"Shift",n&&"Alt",s&&s.toUpperCase()].filter(Boolean).join(" + ")} for quick disable Click and drag here`),
         update: ({
             ctrl: e,
             shift: t,
@@ -176,7 +176,7 @@
             fontWeight: "700",
             userSelect: "text"
         },
-        innerHTML: "GitHub - playstation451",
+        innerHTML: "GitHub - Playstation451",
         onclick: () => window.open("https://github.com/play452/bl-h", "_blank").focus()
     }), $ = l("div", {
         id: "controlButtons",
