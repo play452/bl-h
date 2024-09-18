@@ -153,7 +153,7 @@
         } = {
             ctrl: !0,
             key: "x"
-        }) => m.innerText = `${[e&&"Ctrl",t&&"Shift",a&&"Alt",o&&o.toUpperCase()].filter(Boolean).join(" + ")} to hide | ${[r&&"Ctrl",i&&"Shift",n&&"Alt",s&&s.toUpperCase()].filter(Boolean).join(" + ")} for quick disable Click and drag here`
+        })
     }), l("div", {
         id: "credits",
         style: {
