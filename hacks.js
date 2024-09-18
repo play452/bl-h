@@ -136,7 +136,7 @@
         }, c.data.close || {
             ctrl: !0,
             key: "x"
-        }], `${[e&&"Ctrl",t&&"Shift",a&&"Alt",o&&o.toUpperCase()].filter(Boolean).join(" + ")} to hide | ${[r&&"Ctrl",i&&"Shift",n&&"Alt",s&&s.toUpperCase()].filter(Boolean).join(" + ")} for quick disable Click and drag here`),
+        }],
         update: ({
             ctrl: e,
             shift: t,
